@@ -13,10 +13,12 @@
 #include "RdtSender.h"
 #include "targetver.h"
 #include "Tool.h"
+#include "SRRdtReceiver.h"
+#include "SRRdtSender.h"
 int main()
 {
-	RdtSender* ps = new GBNRdtSender(4,3);
-	RdtReceiver* pr = new GBNRdtReceiver(3);
+	RdtSender* ps = new SRRdtSender(4,3);
+	RdtReceiver* pr = new SRRdtReceiver(4,3);
 	pns->setRunMode(1);  //安静模式
 	pns->init();
 	pns->setRtdSender(ps);

@@ -160,6 +160,8 @@
     <ClCompile Include="GBNRdtSender.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="makepkt.cpp" />
+    <ClCompile Include="SRRdtReceiver.cpp" />
+    <ClCompile Include="SRRdtSender.cpp" />
     <ClCompile Include="stdafx.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -169,9 +171,11 @@
     <ClInclude Include="Global.h" />
     <ClInclude Include="makepkt.h" />
     <ClInclude Include="NetworkService.h" />
+    <ClInclude Include="NewPacket.h" />
     <ClInclude Include="RandomEventEnum.h" />
     <ClInclude Include="RdtReceiver.h" />
     <ClInclude Include="RdtSender.h" />
+    <ClInclude Include="SRRdtReceiver.h" />
     <ClInclude Include="SRRdtSender.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />

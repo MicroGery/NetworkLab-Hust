@@ -14,7 +14,7 @@ GBNRdtSender::GBNRdtSender(int wndsize, int serial) :
 	WndSize(wndsize),
 	base(0),
 	NextSeqNum(0),
-	packects(vector<Packet>(8)) {}
+	packects(vector<Packet>(serial > 0 ? 1 << serial : 1 << 16)) {}//change from 8 to balabala
 
 GBNRdtSender::~GBNRdtSender() {}
 

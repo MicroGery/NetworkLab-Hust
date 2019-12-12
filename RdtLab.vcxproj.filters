@@ -30,6 +30,12 @@
     <ClCompile Include="GBNRdtReceiver.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="SRRdtSender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SRRdtReceiver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStructure.h">
@@ -69,6 +75,12 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="SRRdtSender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewPacket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SRRdtReceiver.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

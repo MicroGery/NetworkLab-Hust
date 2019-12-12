@@ -11,7 +11,7 @@ struct  Configuration {
 	/**
 	定时器时间
 	*/
-	static const int TIME_OUT = 20;
+	static const int TIME_OUT = 10;
 
 };
 
